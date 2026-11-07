@@ -27,7 +27,7 @@ class NametagApp(BaseApp):
     def run(self):
         if self.launched:
             leds.fill((0,1,1))
-            display.draw_png("/data/graphics/hello_i_am_blank.png")
+            display.draw_png("/Hello My Name Is Zagrev Badge.png")
 
             scr = lvgl.obj()
             scr.remove_style_all()
